@@ -11,7 +11,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #111827;
+    background: #3f434d;
     color: #f9fafb;
     line-height: 1.6;
 }
@@ -65,6 +65,7 @@ main {
 }
 
 button {
+    
     border: none;
     border-radius: 6px;
     padding: 0.7rem 1.2rem;
@@ -91,7 +92,9 @@ button:hover {
     text-align: center;
     margin-bottom: 2rem;
 }
-
+.sect-title{
+    color: red;
+}
 .game-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -113,6 +116,9 @@ button:hover {
 .game-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+.game-card:hover{
+    background-color: #1d4ed8;
 }
 
 .game-image {
