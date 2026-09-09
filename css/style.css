@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: #1f2937;
+    background: #371f34;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: green;
     text-decoration: none;
 }
 
