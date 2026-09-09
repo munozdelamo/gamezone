@@ -90,6 +90,12 @@ main {
     border-bottom: 1px solid #312e81;
 }
 
+.about {
+    text-align: center;
+    padding: 6rem 1rem;
+    background: #467ace;
+}
+
 .hero h2 {
     font-size: 3rem;
     margin-bottom: 1rem;
