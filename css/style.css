@@ -1,3 +1,4 @@
+
 /* =====================================================
    GAMEZONE - Hoja de estilos
    Práctica educativa de HTML y CSS
@@ -10,22 +11,23 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #111827;
+    font-family: Verdana, Arial, sans-serif; /* Cambiamos un poco la tipografía */
+    background: #3f5f9e; /* Nuevo color de fondo */
     color: #f9fafb;
     line-height: 1.6;
 }
 
 header {
-    background: #1f2937;
+    background: #071f46;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 
 header h1 {
-    color: #60a5fa;
+    color: #ffffff;
 }
 
 nav {
@@ -34,12 +36,13 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #38e8ef;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #60a5fa;
+    color: #ffffff;
 }
 
 main {
@@ -49,7 +52,7 @@ main {
 .hero {
     text-align: center;
     padding: 6rem 1rem;
-    background: #374151;
+    background: #34476b;
 }
 
 .hero h2 {
@@ -59,16 +62,19 @@ main {
 
 button {
     border: none;
-    border-radius: 6px;
+    border-radius: 8px; /* Un poco más redondeado */
     padding: 0.7rem 1.2rem;
     background: #2563eb;
     color: white;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 button:hover {
     background: #1d4ed8;
+    transform: translateY(-2px); /* Pequeño efecto hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero button {
@@ -93,17 +99,24 @@ button:hover {
 }
 
 .game-card {
-    background: #1f2937;
+    background: #263750; /* Nuevo color */
     padding: 1.5rem;
-    border-radius: 10px;
+    border-radius: 12px;
     text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+    transition: 0.3s;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .game-image {
     min-height: 140px;
     display: grid;
     place-items: center;
-    background: #374151;
+    background: #34476b;
     border-radius: 8px;
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -125,6 +138,7 @@ footer {
     color: #9ca3af;
 }
 
+/* Responsive */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -138,4 +152,9 @@ footer {
     .hero h2 {
         font-size: 2rem;
     }
+
+    .games {
+        padding: 3rem 5%; /* Un poco menos de espacio en móvil */
+    }
 }
+
