@@ -9,4 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
     startButton.addEventListener("click", () => {
         alert("¡Bienvenido a GameZone! Comienza la práctica.");
     });
+
+    const playButtons = document.querySelectorAll(".playButton");
+
+    playButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+            alert("Has comenzado el juego");
+        });
+    });
 });
