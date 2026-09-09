@@ -11,13 +11,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #111827;
+    background: yellow;
     color: #f9fafb;
     line-height: 1.6;
 }
 
 header {
-    background: #1f2937;
+    background: green;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: purple;
     text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-    background: #1d4ed8;
+    background: darkgoldenrod;
 }
 
 .hero button {
