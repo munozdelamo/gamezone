@@ -10,14 +10,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #111827;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background: #3e964e;
     color: #f9fafb;
     line-height: 1.6;
 }
 
 header {
-    background: #1f2937;
+    background: #54b47c;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -97,6 +97,7 @@ button:hover {
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
+    
 }
 
 .game-image {
