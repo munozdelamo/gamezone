@@ -16,3 +16,13 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("No te vicies.");
     });
 });
+
+    // aqui sale un mensaje al pulsar el boton de jugar 
+    const botonesJugar = document.querySelectorAll(".game-card button");
+
+    botonesJugar.forEach(boton => {
+        boton.addEventListener("click", () => {
+            alert("¡Cargando el juego! Prepárate para jugar.");
+        });
+    });
+});
