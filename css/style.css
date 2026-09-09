@@ -10,14 +10,14 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background: #111827;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #2b1738;
     color: #f9fafb;
     line-height: 1.6;
 }
 
 header {
-    background: #1f2937;
+    background: #2b1738;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header {
 }
 
 header h1 {
-    color: #60a5fa;
+    color: #8960fa;
 }
 
 nav {
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-    background: #1d4ed8;
+    background: #6e1dd8;
 }
 
 .hero button {
@@ -121,7 +121,7 @@ button:hover {
 footer {
     text-align: center;
     padding: 2rem;
-    background: #0f172a;
+    background: #2b1738;
     color: #9ca3af;
 }
 
