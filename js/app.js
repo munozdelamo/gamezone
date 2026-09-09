@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const startButton = document.querySelector("#startButton");
 
     startButton.addEventListener("click", () => {
-        alert("¡Bienvenido a GameZone! Comienza la práctica.");
+        alert("Welcome everybody to my page");
     });
 
     // aqui sale un mensaje al pulsar el boton de jugar 

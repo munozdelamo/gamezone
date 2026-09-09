@@ -11,13 +11,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: #111827;
+    background: #0b358f;
     color: #f9fafb;
     line-height: 1.6;
 }
 
 header {
-    background: #1f2937;
+    background: #3076d9;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
