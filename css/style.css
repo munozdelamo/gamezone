@@ -1,8 +1,3 @@
-/* =====================================================
-   GAMEZONE - Hoja de estilos
-   Práctica educativa de HTML y CSS
-   ===================================================== */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,14 +5,15 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
-    background: #3e964e;
-    color: #f9fafb;
+    font-family: Arial, sans-serif;
+    background: #1e293b;
+    color: white;
     line-height: 1.6;
 }
 
+/* 1. Cambiar colores del header */
 header {
-    background: #54b47c;
+    background: #2563eb;
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
@@ -25,7 +21,7 @@ header {
 }
 
 header h1 {
-    color: #60a5fa;
+    color: white;
 }
 
 nav {
@@ -38,8 +34,9 @@ nav a {
     text-decoration: none;
 }
 
+/* 2. Efecto hover */
 nav a:hover {
-    color: #60a5fa;
+    color: #facc15;
 }
 
 main {
@@ -49,7 +46,7 @@ main {
 .hero {
     text-align: center;
     padding: 6rem 1rem;
-    background: #374151;
+    background: #334155;
 }
 
 .hero h2 {
@@ -57,18 +54,19 @@ main {
     margin-bottom: 1rem;
 }
 
+/* 3. Mejorar botones */
 button {
     border: none;
-    border-radius: 6px;
+    border-radius: 10px;
     padding: 0.7rem 1.2rem;
-    background: #2563eb;
-    color: white;
+    background: #facc15;
+    color: #1e293b;
     cursor: pointer;
     font-weight: bold;
 }
 
 button:hover {
-    background: #1d4ed8;
+    background: #fde047;
 }
 
 .hero button {
@@ -92,19 +90,21 @@ button:hover {
     margin: 0 auto;
 }
 
+/* 4. Sombras y bordes en las tarjetas */
 .game-card {
-    background: #1f2937;
+    background: #475569;
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
-    
+    border: 2px solid #64748b;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .game-image {
     min-height: 140px;
     display: grid;
     place-items: center;
-    background: #374151;
+    background: #334155;
     border-radius: 8px;
     font-size: 4rem;
     margin-bottom: 1rem;
