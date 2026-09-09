@@ -25,7 +25,8 @@ header {
 }
 
 header h1 {
-    color: #061e3c;
+    color: #60a5fa;
+    text-shadow: 0 0 10px rgba(96, 165, 250, 0.5); 
 }
 
 nav {
@@ -71,6 +72,7 @@ button {
     color: white;
     cursor: pointer;
     font-weight: bold;
+    transition: background 0.3s ease;
 }
 
 button:hover {
@@ -103,6 +105,14 @@ button:hover {
     padding: 1.5rem;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .game-image {
