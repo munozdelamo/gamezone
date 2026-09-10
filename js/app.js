@@ -5,10 +5,22 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const startButton = document.querySelector("#startButton");
+    const gameName= document.querySelector("#gameName");
+    const playButton = document.querySelector("#BotonJugarJ2");
+    playButton.addEventListener("click",() =>{
+        alert("Vamos a jugar a "+ gameName.textContent)
+    })
+    // jbc lineas 8-9
+    const mensaje = document.querySelector("#mensaje");
 
     startButton.addEventListener("click", () => {
         alert("¡Bienvenido a GameZone! Comienza la práctica.");
     });
+    // jbc linas 14-17 primer boton
+    mensaje.addEventListener("click", () => {
+        alert("No te vicies.");
+    });
+});
 
     // aqui sale un mensaje al pulsar el boton de jugar 
     const botonesJugar = document.querySelectorAll(".game-card button");
